@@ -5,7 +5,7 @@ Official implementation of **GS-in-GS**, a novel framework that embeds an entire
 
 ## Core Idea
 
-The key insight is that **low-contribution Gaussians** in a trained 3DGS model contribute negligibly to rendering quality. GS-in-GS identifies these low-contribution Gaussians via opacity-based contribution analysis, then **replaces their properties** (color, rotation, scale, opacity) with the corresponding properties of the watermark 3DGS model. The result is a single watermarked model that renders identically to the original carrier scene while embedding a complete, recoverable watermark scene.
+The key insight is that **low-contribution Gaussians** in a trained 3DGS model contribute negligibly to rendering quality. GS-in-GS identifies these low-contribution Gaussians via opacity-based contribution analysis, then **replaces their properties** (color, rotation, scale) with the corresponding properties of the watermark 3DGS model. The result is a single watermarked model that renders identically to the original carrier scene while embedding a complete, recoverable watermark scene.
 
 ### Why "GS-in-GS"?
 
